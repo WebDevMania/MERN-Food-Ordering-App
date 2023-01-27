@@ -1,0 +1,82 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.wrapper{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 5rem;
+    font-size: 36px;
+    color: #f00;
+}
+
+.foods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.food{
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgContainer{
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.imgContainer > img{
+    transition: 250ms all;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgContainer > img:hover{
+    scale: 1.1;
+}
+
+.foodDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin-top: 20px;
+}
+
+.foodTitle{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.price > span{
+    font-size: 20px;
+    color: #f00;
+}
+
+.noQuantity{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12.5rem;
+}

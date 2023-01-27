@@ -1,0 +1,33 @@
+.container{
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.wrapper > h2{
+    font-weight: bold;
+    font-size: 36px;
+    white-space: nowrap;
+}
+
+.wrapper > p{
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+}
+
+.wrapper > span{
+    font-size: 24px;
+    color: #555;
+}

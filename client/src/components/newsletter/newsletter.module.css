@@ -1,0 +1,67 @@
+.container{
+    height: 500px;
+    width: 100%;
+    margin: 8.5rem 0;
+    padding-top: 8rem;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.title{
+    margin-bottom: 32px;
+    font-size: 40px;
+    color: #f00;
+}
+
+.inputContainer{
+    width: 500px;
+    height: 70px;
+    border: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-radius: 20px;
+}
+
+.inputContainer > input{
+    outline: none;
+    border: none;
+    width: 90%;
+    padding: 1rem 0;
+    transition: 150ms all;
+}
+
+.inputContainer>input::placeholder{
+    font-size: 16px;
+}
+
+.inputContainer > input:focus{
+    padding-left: 0.75rem;
+}
+
+.inputContainer:focus-within{
+    border-color: #333;
+}
+
+.sendIcon{
+    font-size: 22px;
+}
+
+.illustration{
+    height: 300px;
+    margin-top: 2.5rem;
+}

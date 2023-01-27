@@ -1,0 +1,152 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+/* left */
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.left > img{
+    height: 625px;
+    width: 625px;
+    object-fit: cover;
+}
+
+/* right */
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: auto;
+    margin-top: 1.5rem;
+}
+
+.title{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.quantity > button{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.quantity > button:disabled{
+    background-color: #999;
+    color: #ede8e8;
+    cursor: not-allowed;
+}
+
+.quantity > .quantityNumber{
+    padding: 0;
+    border: none;
+    cursor: default;
+}
+
+.quantity > button:hover{
+    background-color: #e0d8d8;
+}
+
+.productDesc{
+    margin-top: 40px;
+}
+
+.productDesc > div{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.productDesc > p{
+    color: #555;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 30px 0;
+}
+
+.category > h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.category > .categoryName{
+    padding: 0.5rem 1.5rem;
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.category > .categoryName:hover{
+    border-color: #f00;
+    background-color: #fff;
+    color: #f00;
+}
+
+.price{
+    font-size: 28px;
+    color: #f00;
+}
+
+.price > span{
+    font-size: 24px;
+}
+
+.addToCart{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.addToCart:hover{
+    border-color: #f00;
+    color: #f00;
+    background-color: #fff;
+}
